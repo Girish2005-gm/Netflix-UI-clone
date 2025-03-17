@@ -30,7 +30,7 @@ Netflix-UI-clone/
 │── index.html                      # Main HTML file
 │── style.css                       # CSS styles
 │── 227_Netflix_logo-512.webp       # Netflix_logo
-│── one/                            # Images & vedios
+│── one/                            # Images , logo & videos
 └── README.md                       # Project documentation
 
 ```
