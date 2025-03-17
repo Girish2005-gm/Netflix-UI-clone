@@ -10,8 +10,7 @@ A **Netflix homepage clone** built using **HTML & CSS**, featuring a fully respo
 ---
 
 ## 📌 Features  
-✅ **Modern Netflix-style UI** with a clean and minimal design  
-✅ **Fully responsive** layout for desktop, tablet, and mobile  
+✅ **Modern Netflix-style UI** with a clean and minimal design    
 ✅ **Smooth hover effects and animations**  
 ✅ **Google Fonts & Netflix color scheme** for an authentic look  
 ✅ **Optimized for performance** with structured HTML & CSS  
