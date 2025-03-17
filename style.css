@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("one/bg.jpg");
+    height: 89vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+
+}
+
+.main .box {
+    height: 89vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+
+}
+
+nav {
+    max-width: 76vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    padding: 23px;
+    width: 153px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.hero {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: calc(100% - 94px);
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(75, 74, 74);
+    position: relative;
+
+}
+
+.btn {
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border: 1px solid rgba(177, 177, 177, 0.7);
+    padding: 5px 36px;
+
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    width: 300px;
+    height: 46px;
+    border: 1px solid rgba(177, 177, 177, 0.7);
+    color: white;
+    position: relative;
+    z-index: 20;
+    font-weight: 900;
+
+}
+
+.red1 {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-weight: 499;
+    padding: 5px 14px;
+    margin: 16px;
+    border: none;
+}
+
+.red2 {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 3px 24px;
+    font-size: 20px;
+    height: 54px;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    padding: 90px;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    width: 30vw;
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+    padding-bottom: 10vh;
+}
+
+.membership span {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.membership .input2 input {
+    padding: 3px 24px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    width: 300px;
+    height: 46px;
+    border: 1px solid rgba(177, 177, 177, 0.7);
+    color: white;
+    position: relative;
+    z-index: 20;
+    font-weight: 900;
+}
+
+footer{
+    color: rgba(211,211,211,0.7);
+max-width: 60vw;
+margin: auto;
+padding: 34px;
+
+}
+
+.footer {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+footer .que{
+    padding: 17px 0px;
+
+
+}
+.footer a{
+    color: rgba(211,211,211,0.7);
+    font-size: 12px;
+    padding: 2px;
+}
+
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;    
+}
+
+footer h6{
+    color:rgba(211, 211, 211, 0.7);
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 500;
+}
+
