@@ -5,7 +5,7 @@ A **Netflix homepage clone** built using **HTML & CSS**, featuring a fully respo
 ---
 
 ## 🌐 Live Preview  
-🔗 **[View Project](https://your-username.github.io/Netflix-UI-clone/)** *(Replace with your actual GitHub Pages link)*  
+🔗 **[View Project](https://girish2005-gm.github.io/Netflix-UI-clone/)** *(Replace with your actual GitHub Pages link)*  
 
 ---
 
